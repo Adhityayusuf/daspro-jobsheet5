@@ -16,7 +16,8 @@ public class Umur {
             System.out.println("Remaja");
         }else if (umur >= 20 && umur <= 64) {
             System.out.println("Dewasa");
-        }else {
+        }else if(umur >= 65)
+        {
             System.out.println("Lansia");
         }
     }

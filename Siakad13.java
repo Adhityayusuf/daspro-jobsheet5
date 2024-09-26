@@ -22,7 +22,7 @@ public class Siakad13 {
         nilaitugas = sc.nextDouble();
         System.out.print("Masukan nilai ujian: ");
         nilaiujian = sc.nextDouble();
-        System.out.println("Mahasiswa dengan nama " + nama + " Nim " + nim + " Kelas " + kelas + " Nomor absen " + absen);
+        System.out.println("Mahasiswa dengan nama " + nama + ", Nim: " + nim + ", Kelas: " + kelas + ", Nomor absen: " + absen);
         nilaiAkhir = (nilaikuis * 20/100) + (nilaitugas * 15/100) + (nilaiujian * 30/100) + (nilaiujian * 35/100);
         System.out.println("Nilai Akhir: " + nilaiAkhir);
         String nilaiHuruf,kualifikasi;
