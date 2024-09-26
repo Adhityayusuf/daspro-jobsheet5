@@ -43,7 +43,7 @@ public class Kafe {
                 totalHarga += 0.4 * totalHarga;
                 break;
             default:
-                 ukuranCup = "size tidak tersedia"
+                System.out.println("size tidak tersedia");
         }
 
         double diskon = keanggotaan ? 0.1 : 0;
